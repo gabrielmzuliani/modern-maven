@@ -208,8 +208,8 @@ const Index = () => {
 
               <div className="flex gap-4">
                 <Button size="lg" className="px-8" onClick={() => scrollToSection("projects")}>
-                  <ArrowRight className="w-5 h-5 mr-2" />
                   Projetos
+                  <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
                 <Button
                   size="lg"
