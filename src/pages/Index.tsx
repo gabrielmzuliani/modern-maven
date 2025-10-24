@@ -74,19 +74,19 @@ const projects = [
   },
   {
     id: 2,
-    title: "Projeto 2",
+    title: "Dashboard de Vendas",
     description:
-      "Descrição detalhada do segundo projeto, destacando os desafios enfrentados e as soluções implementadas.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop",
-    link: "#",
+      "Projeto desenvolvido para analisar as principais métricas de venda da empresa, identificar oportunidades e sazonalidades e apoiar na estruturação de estratégias fundamentadas em dados.",
+    image: "src/assets/Vendas.png",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiOGU5YzM3ZDUtMTAzNC00NjQ5LTk5ZTYtY2FmOWMyMjA3MTUzIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9",
   },
   {
     id: 3,
-    title: "Projeto 3",
+    title: "Demonstrativo de Resultados",
     description:
-      "Descrição detalhada do terceiro projeto, mostrando o impacto gerado e os insights obtidos.",
-    image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&h=400&fit=crop",
-    link: "#",
+      "Projeto desenvolvido com foco na criação de um dashboard em Power BI para o monitoramento eficaz e eficiente das principais métricas financeiras da empresa.",
+    image: "src/assets/DRE.png",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiNWVkNmQwYTctY2M5Zi00ZjZlLWJlZjYtMzI5YWExYWNhNTFmIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9",
   },
 ];
 
@@ -354,7 +354,7 @@ const Index = () => {
               <div className="lg:col-span-2">
                 <Card>
                   <CardContent className="p-8">
-                    <form onSubmit={handleSubmit} className="space-y-6">
+                    <form form action="https://formsubmit.co/gabrielmzuliani@gmail.com" method="POST">
                       <div>
                         <label
                           htmlFor="name"
@@ -429,8 +429,10 @@ const Index = () => {
                           <Mail className="w-5 h-5 text-primary" />
                         </div>
                         <div>
+                          <a href="mailto:gabrielmzuliani@gmail.com">
                           <p className="font-medium text-text-primary">Email</p>
-                          <p className="text-sm text-text-secondary">seu-email@exemplo.com</p>
+                          <p className="text-sm text-text-secondary">gabrielmzuliani@gmail.com</p>
+                          </a>
                         </div>
                       </CardContent>
                     </Card>
@@ -441,8 +443,10 @@ const Index = () => {
                           <Linkedin className="w-5 h-5 text-primary" />
                         </div>
                         <div>
+                          <a href="https://www.linkedin.com/in/gabriel-zuliani?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BdyVORGuoQb6Wo5x%2FE6T%2FLg%3D%3D" target="_blank">
                           <p className="font-medium text-text-primary">LinkedIn</p>
-                          <p className="text-sm text-text-secondary">Conecte-se comigo</p>
+                          <p className="text-sm text-text-secondary">Gabriel Zuliani</p>
+                          </a>
                         </div>
                       </CardContent>
                     </Card>
@@ -465,7 +469,7 @@ const Index = () => {
                   <CardContent className="p-6">
                     <h4 className="font-semibold text-text-primary mb-2">Disponibilidade</h4>
                     <p className="text-sm text-text-secondary leading-relaxed">
-                      Atualmente aberto a novas oportunidades e projetos freelance. Tempo de
+                      Atualmente aberto a novas oportunidades. Tempo de
                       resposta médio: 24-48 horas.
                     </p>
                   </CardContent>
