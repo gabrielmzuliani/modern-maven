@@ -77,7 +77,7 @@ const projects = [
     title: "Dashboard de Vendas",
     description:
       "Projeto desenvolvido para analisar as principais métricas de venda da empresa, identificar oportunidades e sazonalidades e apoiar na estruturação de estratégias fundamentadas em dados.",
-    image: "src/assets/Vendas.png",
+    image: "modern-maven/src/assets/Vendas.png",
     link: "https://app.powerbi.com/view?r=eyJrIjoiOGU5YzM3ZDUtMTAzNC00NjQ5LTk5ZTYtY2FmOWMyMjA3MTUzIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9",
   },
   {
