@@ -56,11 +56,11 @@ const capabilities = [
 ];
 
 const technologies = [
-  { name: "Power BI", level: "Avançado", percentage: 85, color: "bg-primary" },
-  { name: "Excel", level: "Avançado", percentage: 85, color: "bg-primary" },
-  { name: "SQL", level: "Intermediário", percentage: 65, color: "bg-orange-500" },
+  { name: "Power BI", level: "Avançado", percentage: 80, color: "bg-primary" },
+  { name: "Excel", level: "Avançado", percentage: 80, color: "bg-primary" },
+  { name: "SQL", level: "Intermediário", percentage: 60, color: "bg-orange-500" },
   { name: "VBA", level: "Intermediário", percentage: 60, color: "bg-orange-500" },
-  { name: "Python", level: "Básico", percentage: 40, color: "bg-gray-400" },
+  { name: "Python", level: "Básico", percentage: 30, color: "bg-gray-400" },
 ];
 
 const projects = [
