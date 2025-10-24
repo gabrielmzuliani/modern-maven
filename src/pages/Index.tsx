@@ -175,7 +175,7 @@ const Index = () => {
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
             <div className="flex-shrink-0">
               <div className="relative">
-                <div className="w-80 h-96 rounded-3xl overflow-hidden shadow-lg">
+                <div className="w-64 h-80 rounded-3xl overflow-hidden shadow-lg">
                   <img
                     src={profileImage}
                     alt="Analista de Dados"
