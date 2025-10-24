@@ -66,11 +66,11 @@ const technologies = [
 const projects = [
   {
     id: 1,
-    title: "Projeto 1",
+    title: "Mapeamento de Colaboradores",
     description:
-      "Descrição detalhada do primeiro projeto, incluindo as tecnologias utilizadas e os resultados alcançados.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop",
-    link: "#",
+      "Projeto desenvolvido para proporcionar uma visão estratégica e dinâmica sobre os colaboradores de uma empresa, com foco em transformar dados de RH em insights acionáveis e apoiar a tomada de decisão.",
+    image: "src/assets/RH.png",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiMjk1ZDhkM2YtYWEzOS00OWE5LWJlMmQtN2EzMmVlODU2NmRjIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9",
   },
   {
     id: 2,
