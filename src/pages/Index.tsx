@@ -69,7 +69,7 @@ const projects = [
     title: "Mapeamento de Colaboradores",
     description:
       "Projeto desenvolvido para proporcionar uma visão estratégica e dinâmica sobre os colaboradores de uma empresa, com foco em transformar dados de RH em insights acionáveis e apoiar a tomada de decisão.",
-    image: "src/assets/RH.png",
+    image: "src/assets/RH.svg",
     link: "https://app.powerbi.com/view?r=eyJrIjoiMjk1ZDhkM2YtYWEzOS00OWE5LWJlMmQtN2EzMmVlODU2NmRjIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9",
   },
   {
@@ -77,7 +77,7 @@ const projects = [
     title: "Dashboard de Vendas",
     description:
       "Projeto desenvolvido para analisar as principais métricas de venda da empresa, identificar oportunidades e sazonalidades e apoiar na estruturação de estratégias fundamentadas em dados.",
-    image: "src/assets/Vendas.png",
+    image: "src/assets/Vendas.svg",
     link: "https://app.powerbi.com/view?r=eyJrIjoiOGU5YzM3ZDUtMTAzNC00NjQ5LTk5ZTYtY2FmOWMyMjA3MTUzIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9",
   },
   {
@@ -85,7 +85,7 @@ const projects = [
     title: "Demonstrativo de Resultados",
     description:
       "Projeto desenvolvido com foco na criação de um dashboard em Power BI para o monitoramento eficaz e eficiente das principais métricas financeiras da empresa.",
-    image: "src/assets/DRE.png",
+    image: "src/assets/DRE.svg",
     link: "https://app.powerbi.com/view?r=eyJrIjoiNWVkNmQwYTctY2M5Zi00ZjZlLWJlZjYtMzI5YWExYWNhNTFmIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9",
   },
 ];
