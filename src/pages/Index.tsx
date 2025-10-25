@@ -354,7 +354,7 @@ const Index = () => {
               <div className="lg:col-span-2">
                 <Card>
                   <CardContent className="p-8">
-                    <form form action="https://formsubmit.co/gabrielmzuliani@gmail.com" method="POST">
+                    <form action="https://formsubmit.co/gabrielmzuliani@gmail.com" method="POST" className="space-y-6">
                       <div>
                         <label
                           htmlFor="name"
@@ -365,8 +365,6 @@ const Index = () => {
                         <Input
                           id="name"
                           name="name"
-                          value={formData.name}
-                          onChange={handleChange}
                           placeholder="Seu nome completo"
                           required
                         />
@@ -383,8 +381,6 @@ const Index = () => {
                           id="email"
                           name="email"
                           type="email"
-                          value={formData.email}
-                          onChange={handleChange}
                           placeholder="seu.email@exemplo.com"
                           required
                         />
@@ -400,8 +396,6 @@ const Index = () => {
                         <Textarea
                           id="message"
                           name="message"
-                          value={formData.message}
-                          onChange={handleChange}
                           placeholder="Conte-me sobre seu projeto ou ideia..."
                           rows={6}
                           required
